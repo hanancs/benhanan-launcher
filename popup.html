@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanan Extension</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html,
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            min-height: 180px;
+            margin: 0;
+            padding: 0;
+            width: 384px;
+            border-radius: 45px;
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color: rgb(28, 96, 151);
+        }
+
+        a:link,
+        a:visited {
+            color: black;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img {
+            width: 60px;
+        }
+
+        .modal-header {
+            align-items: center;
+            border-bottom: 0.5px solid rgb(28, 96, 151);
+        }
+
+        .modal-content {
+            padding: 0 22px;
+        }
+
+        .modal-icons {
+            border-top: 0.5px solid rgb(28, 96, 151);
+            height: 50px;
+            width: 100%;
+        }
+
+        .logo {
+            padding: 16px;
+        }
+
+        .logo-icon {
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+
+        .version {
+            color: rgb(28, 96, 151);
+            font-size: 18px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 22px;
+        }
+
+        .flex {
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+
+        .flex:hover {
+            opacity: 0.4;
+            color: rgb(16, 22, 27);
+        }
+
+        .flex .fa {
+            font-size: 40px;
+            color: rgb(28, 96, 151);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="images/benhanan-logo.png" alt="" class="logo-icon">
+            Ben Hanan Subendran <span class="version"></span>
+
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p class="p1">
+            Quick Access to Ben Hanan Subendran's Sites.
+        </p>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://benhanansubendran.digital" target="_blank">
+                    <i class="fa fa-globe"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://facebook.com/benhanansubendran" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://twitter.com/benhanancs" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://open.spotify.com/artist/34HvsQGz67U5PcsmgDZSWY" target="_blank">
+                    <i class="fa fa-spotify"></i>
+                </a>
+            </div>
+        </div>
+
+        <script src="popup.js"></script>
+</body>
+
+</html>
